@@ -1,0 +1,19 @@
+{
+  "name": "twitter-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd client/twitterTest && ember build --environment=production --output-path=../../public/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "pg": "^6.3.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.1.0",
+    "underscore": "^1.8.3"
+  }
+}

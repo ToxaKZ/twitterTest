@@ -1,0 +1,12 @@
+
+<button class="btn btn-xs btn-info" {{action "getNewTweets"}}>
+       Refresh <span class="glyphicon glyphicon-refresh"></span>
+</button> 
+
+<div>
+  <div class="list-group">
+    {{#each tweets as |tweet|}}
+      {{tweet-list-item model=tweet}}
+    {{/each}}
+  </div>
+</div>

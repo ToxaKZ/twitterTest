@@ -1,0 +1,31 @@
+
+# compiled output
+/public
+/tmp
+
+# dependencies
+/node_modules
+
+# misc
+run.bat
+/.vscode
+
+
+
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/client/twitterTest/dist
+/client/twitterTest/tmp
+
+# dependencies
+/client/twitterTest/node_modules
+/client/twitterTest/bower_components
+
+# misc
+/client/twitterTest/.sass-cache
+/client/twitterTest/connect.lock
+/client/twitterTest/coverage/*
+/client/twitterTest/libpeerconnection.log
+npm-debug.log*
+testem.log
