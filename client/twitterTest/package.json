@@ -46,6 +46,7 @@
   },
   "private": true,
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "ember-cli": "2.13.2"
   }
 }

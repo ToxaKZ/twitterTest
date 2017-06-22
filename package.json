@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd client/twitterTest && ember build --environment=production --output-path=../../public/"
+    "build": "cd client/twitterTest && npm i && ember build --environment=production --output-path=../../public/",
+    "postinstall": "npm run build",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "express": "^4.15.3",
     "pg": "^6.3.1",
     "pg-hstore": "^2.3.2",
     "sequelize": "^4.1.0",
+    "twitter": "^1.7.1",
     "underscore": "^1.8.3"
   }
 }
