@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd client/twitterTest && npm i && ember build --environment=production --output-path=../../public/",
+    "build": "cd client/twitterTest && npm i && node_modules\.bin\ember build --environment=production --output-path=../../public/",
     "postinstall": "npm run build",
     "start": "node server.js"
   },
